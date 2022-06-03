@@ -1,0 +1,669 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{background-image:url(Images/Group\ 13.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#contact{
+    color:rgba(255, 255, 255, 0.781);
+    position: absolute;
+    left:60px;
+    top:34px;
+    font-weight: 500px;
+    font-size:18px;
+}
+
+#call-logo{
+    background-color: rgba(255, 255, 255, 0);
+    width: 20px;
+}
+
+#email{
+    color:rgba(255, 255, 255, 0.781);
+    font-weight:500;
+    font-size: 18px;
+    position:absolute;
+    top: 34px;
+    left: 250px;
+}
+#email-logo{
+    background-color: rgba(255, 255, 255, 0);
+    width: 20px;
+}
+
+
+#sun-logo-main{
+    width:85px;
+    height: 35px;
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+
+#main-name{
+    color: white;
+    
+    position: absolute;
+    top: 115px;
+    left: 160px;
+}
+
+#nav-menu li{
+    float: right;
+    display: inline;
+    padding:20px;
+    position: relative;
+    top:100px;
+    color:white;
+    overflow: hidden;
+    list-style: none;
+    font-size:20px;
+    
+}
+
+#nav-menu a:hover{
+    color:rgb(184, 184, 184);
+}
+
+
+#book-now{
+    font-size:20px;
+    font-weight: 900;
+    background-color: #FEB700;
+    color: black;
+    display:block;
+    text-align: center;
+    padding:14px 16px;
+    width:90px;
+    height: 20px;
+    position: relative;
+    top: -15px;
+    
+    
+}
+
+#book-now a:hover{
+    color: white;
+}
+
+li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight:bold;
+}
+
+#topic{
+    color: white;
+    font-size:66px;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 80px;
+
+    position: absolute;
+    top: 270px;
+    left: 60px;
+}
+
+#topic-description{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    font-style:normal;
+    line-height: 25px;
+
+    position: absolute;
+    top: 200px;
+}
+
+#intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+
+    position: absolute;
+    top:900px ;
+    left:60px;
+
+}
+
+.content-grid{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:30px;
+    background-color: white;
+    background-position: relative;
+    padding:20px;
+    box-shadow: 5px 5px 40px -9px rgba(0, 0, 0, 0.41);
+
+    position: absolute;
+    top: 715.9px;
+    left: 280px;
+}
+
+.flex{
+    background-color:#FFB700;
+    color:white;
+    padding:10px 20px;
+    outline:none;
+    border: none;
+    height:45px;
+
+}
+
+.box :hover{
+    color:#FFB700;
+    background-color:white;
+     
+    
+}
+
+.Check-box :hover{
+    background-color:white;
+    color: #FFB700;
+    
+}
+
+.flex{
+    border: 2px solid #FEB700;
+}
+
+.line-img{
+    position:absolute;
+    top: 950px;
+    left:60px;
+    width: 75px;
+    height:1px;
+
+}
+
+.intro-description{
+    
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.7);
+    font-size:20px;
+    line-height:30px;
+    letter-spacing: 0.01em;
+    text-align:justify;
+    text-justify: inter-word;
+    margin-right:750px;
+
+    position: absolute;
+    top: 1000px;
+    left:60px;
+}
+
+#intro-img{
+    position: absolute;
+    top:950px;
+    right:60px;
+
+    width:370px;
+    height:300px;
+    margin-right: 20px;
+}
+
+#rooms-h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+
+    position: absolute;
+    top:1450px ;
+    left:60px;
+}
+
+
+#sub-head-room{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+    color:#ADADAD;
+    
+
+    position: absolute;
+    top:1500px ;
+    left:60px;
+
+
+}
+
+#room1{
+    position: absolute;
+    top: 1600px;
+    left: 60px;
+
+    width: 300px;
+    height: 200px;
+}
+
+#room2{
+    position: absolute;
+    top: 1815px;
+    left: 60px;
+
+    width: 300px;
+    height: 200px;
+}
+
+#room3{
+    position: absolute;
+    top: 1600px;
+    left: 375px;
+
+    width: 250px;
+    height: 415px;
+}
+
+
+#room4{
+    position: absolute;
+    top: 1600px;
+    left: 640px;
+
+    width: 650px;
+    height: 205px;
+}
+
+#room5{
+    position: absolute;
+    top: 1815px;
+    left: 640px;
+
+    width: 300px;
+    height: 200px;
+}
+
+#room6{
+    position: absolute;
+    top: 1815px;
+    left: 955px;
+
+    width: 338px;
+    height: 200px;
+}
+
+#room-description{
+    color: rgba(0, 0, 0, 0.7);
+    font-size:20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right:700px;
+    font-weight:600;
+
+
+    position: absolute;
+    top:2090px ;
+    left: 60px;
+}
+
+#tourist-map-h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+
+    position: absolute;
+    top:2220px ;
+    left:60px;
+}
+
+#hotel-map{
+    position: absolute;
+    top: 2400px;
+    left: 60px;
+}
+
+#sub-head-map{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+    color:#ADADAD;
+    
+
+    position: absolute;
+    top:2270px ;
+    left:60px;
+}
+
+
+
+#service-background-image{
+    position: absolute;
+    top: 3100px;
+    width: 100%;
+}
+
+#our-services{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size:36px;
+
+    position: absolute;
+    top: 3150px;
+    left:60px;
+}
+
+#wifi-logo{
+    position: absolute;
+    top:3200px;
+    left:400px;
+
+    width: 85px;
+    height:85px;
+}
+
+#free-wifi .logo-wifi{
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size:22px;
+}
+
+#free-wifi .wifi-logo-text{
+    color: rgba(255, 255, 255, 0.68);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+    
+}
+
+#free-wifi{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 3300px;
+    left:365px;
+}
+
+
+#hotwater-logo{
+    position: absolute;
+    top:3200px;
+    left:770px;
+
+    width: 85px;
+    height:85px;
+}
+
+
+#topic-logo-hotwater{
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size:22px;
+
+    position: absolute;
+    top: 3298px;
+    left: 760px;
+}
+
+#hotwater-logo-text{
+    color: rgba(255, 255, 255, 0.68);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+    position: absolute;
+    top:3345px;
+    left: 735px;
+}
+
+
+#free-parking{
+    position: absolute;
+    top:3210px;
+    left:1120px;
+
+    width:85px;
+    height: 85px;
+}
+
+
+#topic-logo-parking{
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size:22px;
+
+    position: absolute;
+    top: 3298px;
+    left: 1123px;
+}
+
+
+#parking-logo-text{
+    color: rgba(255, 255, 255, 0.68);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+    position: absolute;
+    top:3345px;
+    left: 1095px;
+}
+
+
+#yellow-background{
+    
+    position: absolute;
+    top: 3535px;
+    width: 100%;
+    height: 755px;
+}
+
+
+#gallery-web-heading{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight:bold;
+    
+
+    position: absolute;
+    top: 3630px;
+    left: 500px;
+    
+    
+}
+
+.container{
+    max-height: 420px;
+    
+    display:flex;
+    overflow-x: auto;
+    width:1300px;
+    position: absolute;
+    top: 3750px;
+    margin:20px;
+    
+
+}
+
+.container::-webkit-scrollbar{
+    width:0;
+}
+
+.container .img-gal{
+    min-width: 500px;
+    height:360px;
+    line-height:110px;
+    text-align: center;
+    margin-right: 4px;
+}
+
+
+#img-footer{
+    position: absolute;
+    width: 100%;
+    top:4290px;
+}
+
+#footer-logo{
+    position: absolute;
+    top:4360px;
+    left:60px;
+}
+
+#footer-heading{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight:bold;
+
+    position: absolute;
+    top:4365px;
+    left:160px;
+}
+
+#location-icon{
+    color: rgba(173, 173, 173, 0.5);
+    font-size:25px;
+
+    position:absolute;
+    top:4450px;
+    left:60px;
+}
+
+#loc-address{
+    color: rgba(173, 173, 173, 1);
+    font-size:18px;
+    font-family:"Open Sans",sans-serif;
+
+    position: absolute;
+    top: 4450px;
+    left: 100px;
+
+
+}
+
+
+#footer-call-1{
+    color: rgba(173, 173, 173, 0.5);
+    font-size:25px;
+
+    position:absolute;
+    top:4520px;
+    left:60px;
+}
+
+#footer-number1{
+    color: rgba(173, 173, 173, 1);
+    font-size:18px;
+    font-family:"Open Sans",sans-serif;
+
+    position: absolute;
+    top: 4522px;
+    left: 100px;
+}
+
+#footer-call-2{
+    color: rgba(173, 173, 173, 0.5);
+    font-size:25px;
+
+    position:absolute;
+    top:4580px;
+    left:60px;
+}
+
+#footer-number2{
+    color: rgba(173, 173, 173, 1);
+    font-size:18px;
+    font-family:"Open Sans",sans-serif;
+
+    position: absolute;
+    top: 4583px;
+    left: 100px;
+}
+
+#amenities-heading{
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 24px;
+    font-family:"Open Sans",sans-serif;
+    font-weight: 500;
+
+    position: absolute;
+    top: 4375px;
+    left: 660px;
+
+
+}
+
+#yellow-line{
+    position: absolute;
+    top: 4410px;
+    left: 660px;
+    width:60px;
+}
+
+#amenities-position{
+    color:rgba(173, 173, 173, 1);
+    font-size:18px;
+
+    position: absolute;
+    top: 4450px;
+    left: 660px;
+    
+}
+
+#amenities-position-2{
+    color:rgba(173, 173, 173, 1);
+    font-size:18px;
+
+    position: absolute;
+    top: 4450px;
+    left: 950px;
+    
+}
+
+
+#facebook-icon{
+    color: rgba(173, 173, 173, 0.5);
+    font-size:35px;
+
+    position: absolute;
+    top: 4700px;
+    right: 60px;
+}
+
+#instagram-icon{
+    color: rgba(173, 173, 173, 0.5);
+    font-size:35px;
+
+    position: absolute;
+    top: 4700px;
+    right: 110px;
+}
+
+#youtube-icon{
+    color: rgba(173, 173, 173, 0.5);
+    font-size:35px;
+
+    position: absolute;
+    top: 4700px;
+    right: 160px;
+}
+
+
+
+#cr-img{
+    position: absolute;
+    top: 4766px;
+    width:100%;
+}
+
+#copy-right-text{
+    color: rgba(173, 173, 173, 1);
+    font-size:10px;
+    font-family:"Open Sans",sans-serif;
+
+    position: absolute;
+    top: 4810px;
+    left: 550px;
+}
+
+
+
